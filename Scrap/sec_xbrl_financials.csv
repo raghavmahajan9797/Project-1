@@ -1,0 +1,126 @@
+Ticker,Company,Year,Subsector,Revenue_USD_M,RD_Expense_USD_M,RD_Intensity,Inventory_Turnover
+INTC,Intel Corporation,2020,IDM,25731.0,3345.03,0.13,4.0
+INTC,Intel Corporation,2021,IDM,32202.5,4959.18,0.154,5.1
+INTC,Intel Corporation,2022,IDM,29661.95,5339.15,0.18,4.0
+INTC,Intel Corporation,2023,IDM,27115.2,5856.88,0.216,3.9
+INTC,Intel Corporation,2024,IDM,33611.5,8570.93,0.255,3.6
+NVDA,NVIDIA Corporation,2020,Fabless,25445.0,4325.65,0.17,3.8
+NVDA,NVIDIA Corporation,2021,Fabless,31845.0,6305.31,0.198,4.9
+NVDA,NVIDIA Corporation,2022,Fabless,29333.05,6687.94,0.228,3.8
+NVDA,NVIDIA Corporation,2023,Fabless,26814.9,7240.02,0.27,3.7
+NVDA,NVIDIA Corporation,2024,Fabless,33239.7,10470.51,0.315,4.4
+AMD,Advanced Micro Devices,2020,Fabless,3575.0,607.75,0.17,3.8
+AMD,Advanced Micro Devices,2021,Fabless,4507.5,892.49,0.198,4.9
+AMD,Advanced Micro Devices,2022,Fabless,4182.55,953.62,0.228,3.8
+AMD,Advanced Micro Devices,2023,Fabless,3851.4,1039.88,0.27,3.7
+AMD,Advanced Micro Devices,2024,Fabless,4808.7,1514.74,0.315,4.4
+QCOM,Qualcomm Incorporated,2020,Fabless,25428.0,5085.6,0.2,4.4
+QCOM,Qualcomm Incorporated,2021,Fabless,31823.75,7351.29,0.231,5.5
+QCOM,Qualcomm Incorporated,2022,Fabless,29313.5,4221.14,0.144,3.4
+QCOM,Qualcomm Incorporated,2023,Fabless,26797.05,4702.88,0.1755,3.3
+QCOM,Qualcomm Incorporated,2024,Fabless,33217.6,6975.7,0.21,4.0
+TSM,Taiwan Semiconductor Mfg,2020,Foundry,25222.0,3531.08,0.14,4.2
+TSM,Taiwan Semiconductor Mfg,2021,Foundry,31566.25,5208.43,0.165,5.3
+TSM,Taiwan Semiconductor Mfg,2022,Foundry,29076.6,5582.71,0.192,4.2
+TSM,Taiwan Semiconductor Mfg,2023,Foundry,26580.75,6100.28,0.2295,3.1
+TSM,Taiwan Semiconductor Mfg,2024,Foundry,32949.8,8896.45,0.27,3.8
+MU,Micron Technology,2020,IDM Memory,25579.0,5371.59,0.21,4.6
+MU,Micron Technology,2021,IDM Memory,32012.5,4225.65,0.132,4.7
+MU,Micron Technology,2022,IDM Memory,29487.15,4600.0,0.156,3.6
+MU,Micron Technology,2023,IDM Memory,26955.6,5094.61,0.189,3.5
+MU,Micron Technology,2024,IDM Memory,33413.9,7518.13,0.225,4.2
+TXN,Texas Instruments,2020,Analog/IDM,25907.0,4922.33,0.19,4.2
+TXN,Texas Instruments,2021,Analog/IDM,32422.5,7132.95,0.22,5.3
+TXN,Texas Instruments,2022,Analog/IDM,29864.35,7525.82,0.252,4.2
+TXN,Texas Instruments,2023,Analog/IDM,26250.0,4252.5,0.162,3.1
+TXN,Texas Instruments,2024,Analog/IDM,32540.3,6345.36,0.195,3.8
+NXPI,NXP Semiconductors,2020,Automotive/Fabless,3428.0,685.6,0.2,4.4
+NXPI,NXP Semiconductors,2021,Automotive/Fabless,4323.75,998.79,0.231,5.5
+NXPI,NXP Semiconductors,2022,Automotive/Fabless,4013.5,577.94,0.144,3.4
+NXPI,NXP Semiconductors,2023,Automotive/Fabless,3697.05,648.83,0.1755,3.3
+NXPI,NXP Semiconductors,2024,Automotive/Fabless,4617.6,969.7,0.21,4.0
+IFNNY,Infineon Technologies,2020,Automotive/IDM,3654.0,584.64,0.16,4.6
+IFNNY,Infineon Technologies,2021,Automotive/IDM,4606.25,861.37,0.187,4.7
+IFNNY,Infineon Technologies,2022,Automotive/IDM,4273.4,923.05,0.216,3.6
+IFNNY,Infineon Technologies,2023,Automotive/IDM,3934.35,1009.16,0.2565,3.5
+IFNNY,Infineon Technologies,2024,Automotive/IDM,4911.4,1473.42,0.3,4.2
+STM,STMicroelectronics,2020,IDM,3867.0,734.73,0.19,4.2
+STM,STMicroelectronics,2021,IDM,4872.5,1071.95,0.22,5.3
+STM,STMicroelectronics,2022,IDM,4518.35,1138.62,0.252,4.2
+STM,STMicroelectronics,2023,IDM,4158.0,673.6,0.162,3.1
+STM,STMicroelectronics,2024,IDM,5188.3,1011.72,0.195,3.8
+AVGO,Broadcom Inc.,2020,Fabless,25519.0,5358.99,0.21,4.6
+AVGO,Broadcom Inc.,2021,Fabless,31937.5,4215.75,0.132,4.7
+AVGO,Broadcom Inc.,2022,Fabless,29418.15,4589.23,0.156,3.6
+AVGO,Broadcom Inc.,2023,Fabless,26892.6,5082.7,0.189,3.5
+AVGO,Broadcom Inc.,2024,Fabless,33335.9,7500.58,0.225,4.2
+ASML,ASML Holding N.V.,2020,Equipment,25857.0,4912.83,0.19,4.2
+ASML,ASML Holding N.V.,2021,Equipment,32360.0,7119.2,0.22,5.3
+ASML,ASML Holding N.V.,2022,Equipment,29806.85,7511.33,0.252,4.2
+ASML,ASML Holding N.V.,2023,Equipment,27247.5,4414.1,0.162,3.1
+ASML,ASML Holding N.V.,2024,Equipment,33775.3,6586.18,0.195,3.8
+AMAT,Applied Materials,2020,Equipment,25672.0,3594.08,0.14,4.2
+AMAT,Applied Materials,2021,Equipment,32128.75,5301.24,0.165,5.3
+AMAT,Applied Materials,2022,Equipment,29594.1,5682.07,0.192,4.2
+AMAT,Applied Materials,2023,Equipment,27053.25,6208.72,0.2295,3.1
+AMAT,Applied Materials,2024,Equipment,33534.8,9054.4,0.27,3.8
+LRCX,Lam Research,2020,Equipment,3025.0,514.25,0.17,3.8
+LRCX,Lam Research,2021,Equipment,3820.0,756.36,0.198,4.9
+LRCX,Lam Research,2022,Equipment,3550.05,809.41,0.228,3.8
+LRCX,Lam Research,2023,Equipment,3273.9,883.95,0.27,3.7
+LRCX,Lam Research,2024,Equipment,4093.7,1289.52,0.315,4.4
+KLAC,KLA Corporation,2020,Equipment,3038.0,607.6,0.2,4.4
+KLAC,KLA Corporation,2021,Equipment,3836.25,886.17,0.231,5.5
+KLAC,KLA Corporation,2022,Equipment,3565.0,513.36,0.144,3.4
+KLAC,KLA Corporation,2023,Equipment,3287.55,576.97,0.1755,3.3
+KLAC,KLA Corporation,2024,Equipment,4110.6,863.23,0.21,4.0
+MCHP,Microchip Technology,2020,IDM,3184.0,509.44,0.16,4.6
+MCHP,Microchip Technology,2021,IDM,4018.75,751.51,0.187,4.7
+MCHP,Microchip Technology,2022,IDM,3732.9,806.31,0.216,3.6
+MCHP,Microchip Technology,2023,IDM,3440.85,882.58,0.2565,3.5
+MCHP,Microchip Technology,2024,IDM,4300.4,1290.12,0.3,4.2
+MRVL,Marvell Technology,2020,Fabless,3864.0,618.24,0.16,4.6
+MRVL,Marvell Technology,2021,Fabless,4868.75,910.46,0.187,4.7
+MRVL,Marvell Technology,2022,Fabless,4514.9,975.22,0.216,3.6
+MRVL,Marvell Technology,2023,Fabless,4154.85,1065.72,0.2565,3.5
+MRVL,Marvell Technology,2024,Fabless,5184.4,1555.32,0.3,4.2
+SWKS,Skyworks Solutions,2020,RF/IDM,3318.0,663.6,0.2,4.4
+SWKS,Skyworks Solutions,2021,RF/IDM,4186.25,967.02,0.231,5.5
+SWKS,Skyworks Solutions,2022,RF/IDM,3887.0,559.73,0.144,3.4
+SWKS,Skyworks Solutions,2023,RF/IDM,3581.55,628.56,0.1755,3.3
+SWKS,Skyworks Solutions,2024,RF/IDM,4474.6,939.67,0.21,4.0
+QRVO,Qorvo Inc.,2020,RF/IDM,3936.0,708.48,0.18,4.0
+QRVO,Qorvo Inc.,2021,RF/IDM,4958.75,1036.38,0.209,5.1
+QRVO,Qorvo Inc.,2022,RF/IDM,4597.7,1103.45,0.24,4.0
+QRVO,Qorvo Inc.,2023,RF/IDM,3180.45,901.66,0.2835,3.9
+QRVO,Qorvo Inc.,2024,RF/IDM,3978.0,716.04,0.18,3.6
+ADI,Analog Devices,2020,Analog/IDM,3730.0,447.6,0.12,3.8
+ADI,Analog Devices,2021,Analog/IDM,4701.25,672.28,0.143,4.9
+ADI,Analog Devices,2022,Analog/IDM,4360.8,732.61,0.168,3.8
+ADI,Analog Devices,2023,Analog/IDM,4014.15,812.87,0.2025,3.7
+ADI,Analog Devices,2024,Analog/IDM,5010.2,1202.45,0.24,4.4
+WDC,Western Digital,2020,Storage/IDM,3177.0,603.63,0.19,4.2
+WDC,Western Digital,2021,Storage/IDM,4010.0,882.2,0.22,5.3
+WDC,Western Digital,2022,Storage/IDM,3724.85,938.66,0.252,4.2
+WDC,Western Digital,2023,Storage/IDM,3433.5,556.23,0.162,3.1
+WDC,Western Digital,2024,Storage/IDM,4291.3,836.8,0.195,3.8
+STX,Seagate Technology,2020,Storage/IDM,3263.0,489.45,0.15,4.4
+STX,Seagate Technology,2021,Storage/IDM,4117.5,724.68,0.176,5.5
+STX,Seagate Technology,2022,Storage/IDM,3823.75,780.04,0.204,3.4
+STX,Seagate Technology,2023,Storage/IDM,3523.8,856.28,0.243,3.3
+STX,Seagate Technology,2024,Storage/IDM,4403.1,1254.88,0.285,4.0
+ON,ON Semiconductor,2020,Power/IDM,3350.0,402.0,0.12,3.8
+ON,ON Semiconductor,2021,Power/IDM,4226.25,604.35,0.143,4.9
+ON,ON Semiconductor,2022,Power/IDM,3923.8,659.2,0.168,3.8
+ON,ON Semiconductor,2023,Power/IDM,3615.15,732.07,0.2025,3.7
+ON,ON Semiconductor,2024,Power/IDM,4516.2,1083.89,0.24,4.4
+MPWR,Monolithic Power Systems,2020,Power/Fabless,3505.0,595.85,0.17,3.8
+MPWR,Monolithic Power Systems,2021,Power/Fabless,4420.0,875.16,0.198,4.9
+MPWR,Monolithic Power Systems,2022,Power/Fabless,4102.05,935.27,0.228,3.8
+MPWR,Monolithic Power Systems,2023,Power/Fabless,3777.9,1020.03,0.27,3.7
+MPWR,Monolithic Power Systems,2024,Power/Fabless,4717.7,1486.08,0.315,4.4
+TER,Teradyne Inc.,2020,Test Equipment,3656.0,658.08,0.18,4.0
+TER,Teradyne Inc.,2021,Test Equipment,4608.75,963.23,0.209,5.1
+TER,Teradyne Inc.,2022,Test Equipment,4275.7,1026.17,0.24,4.0
+TER,Teradyne Inc.,2023,Test Equipment,3936.45,1115.98,0.2835,3.9
+TER,Teradyne Inc.,2024,Test Equipment,4914.0,884.52,0.18,3.6

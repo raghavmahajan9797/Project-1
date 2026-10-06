@@ -1,0 +1,1261 @@
+
+--- Calibration cross-check (R vs Excel, percentile anchors) ---
+AICAP    max|diff| = 0.001000   mean|diff| = 0.000010
+AIGOV    max|diff| = 0.001000   mean|diff| = 0.000029
+SUSSRC   max|diff| = 0.001000   mean|diff| = 0.000029
+DIGVIS   max|diff| = 0.001000   mean|diff| = 0.000019
+SUPCOLL  max|diff| = 0.001000   mean|diff| = 0.000010
+SUPDIV   max|diff| = 0.001000   mean|diff| = 0.000010
+SCR      max|diff| = 0.001000   mean|diff| = 0.000010
+
+
+#####################################################################
+### Percentile anchors -- outcome SCR
+#####################################################################
+
+  OUT: output value
+    n: number of cases in configuration
+ incl: sufficiency inclusion score
+  PRI: proportional reduction in inconsistency
+
+     AICAP AIGOV SUSSRC DIGVIS SUPCOLL SUPDIV   OUT    n   incl  PRI  
+56     1     1     0      1       1      1       1     4   0.975 0.925
+64     1     1     1      1       1      1       1     18  0.970 0.934
+48     1     0     1      1       1      1       1     2   0.961 0.840
+63     1     1     1      1       1      0       1     5   0.958 0.835
+15     0     0     1      1       1      0       1     2   0.957 0.792
+32     0     1     1      1       1      1       1     3   0.951 0.824
+16     0     0     1      1       1      1       1     4   0.945 0.835
+11     0     0     1      0       1      0       1     2   0.922 0.635
+ 4     0     0     0      0       1      1       1     2   0.908 0.649
+45     1     0     1      1       0      0       0     2   0.881 0.170
+57     1     1     1      0       0      0       0     2   0.875 0.313
+34     1     0     0      0       0      1       0     2   0.838 0.351
+37     1     0     0      1       0      0       0     2   0.837 0.268
+33     1     0     0      0       0      0       0     3   0.808 0.259
+10     0     0     1      0       0      1       0     2   0.794 0.314
+ 2     0     0     0      0       0      1       0     5   0.780 0.417
+25     0     1     1      0       0      0       0     2   0.776 0.079
+17     0     1     0      0       0      0       0     6   0.688 0.048
+ 1     0     0     0      0       0      0       0     15  0.519 0.044
+     cases                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+56   Micron_Technology_2023,NVIDIA_Corporation_2023,Samsung_Electronics_2023,Samsung_Electronics_2025                                                                                                                                                                                                                                                                                                                                                                                               
+64   Advanced_Micro_Devices_2025,Applied_Materials_2025,Intel_Corporation_2023,Intel_Corporation_2024,Intel_Corporation_2025,MediaTek_Inc._2025,Micron_Technology_2024,Micron_Technology_2025,NVIDIA_Corporation_2024,NVIDIA_Corporation_2025,Qualcomm_Incorporated_2024,SK_Hynix_2024,SK_Hynix_2025,Samsung_Electronics_2024,Taiwan_Semiconductor_Manufacturing_Co._2023,Taiwan_Semiconductor_Manufacturing_Co._2024,Taiwan_Semiconductor_Manufacturing_Co._2025,United_Microelectronics_Corp._2025
+48   Lam_Research_2024,Lam_Research_2025                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+63   Advanced_Micro_Devices_2024,Broadcom_Inc._2025,KLA_Corporation_2025,SK_Hynix_2023,onsemi_2025                                                                                                                                                                                                                                                                                                                                                                                                  
+15   Applied_Materials_2023,Applied_Materials_2024                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+32   ASE_Technology_Holding_2025,Microchip_Technology_2025,Texas_Instruments_2025                                                                                                                                                                                                                                                                                                                                                                                                                   
+16   KLA_Corporation_2024,Texas_Instruments_2023,Texas_Instruments_2024,United_Microelectronics_Corp._2024                                                                                                                                                                                                                                                                                                                                                                                          
+11   KLA_Corporation_2023,onsemi_2023                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+ 4   ASE_Technology_Holding_2023,United_Microelectronics_Corp._2023                                                                                                                                                                                                                                                                                                                                                                                                                                 
+45   Broadcom_Inc._2024,Phison_Electronics_2024                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+57   MediaTek_Inc._2023,Phison_Electronics_2023                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+34   Himax_Technologies_2023,Himax_Technologies_2024                                                                                                                                                                                                                                                                                                                                                                                                                                                
+37   AEM_Holdings_2025,Realtek_Semiconductor_2024                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+33   AEM_Holdings_2023,AEM_Holdings_2024,Marvell_Technology_2023                                                                                                                                                                                                                                                                                                                                                                                                                                    
+10   Hana_Micron_2024,Microchip_Technology_2023                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+ 2   Analog_Devices_2023,Frencken_Group_2023,Frencken_Group_2024,GlobalFoundries_2023,Venture_Corporation_2024                                                                                                                                                                                                                                                                                                                                                                                      
+25   LX_Semicon_2024,LX_Semicon_2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+17   DB_HiTek_2025,Nanya_Technology_2025,Novatek_Microelectronics_2024,Novatek_Microelectronics_2025,Skyworks_Solutions_2024,Wolfspeed_2025                                                                                                                                                                                                                                                                                                                                                         
+ 1   DB_HiTek_2023,DB_HiTek_2024,Hana_Micron_2023,LX_Semicon_2023,Nanya_Technology_2023,Nanya_Technology_2024,Novatek_Microelectronics_2023,Realtek_Semiconductor_2023,Skyworks_Solutions_2023,UMS_Holdings_2023,UMS_Holdings_2024,UMS_Holdings_2025,Venture_Corporation_2023,Wolfspeed_2023,Wolfspeed_2024                                                                                                                                                                                         
+
+Positive rows before/after firm-diversity filter: 9 -> 7 (demoted: 15, 48)
+
+--- Necessity (SCR) ---
+
+AICAP:
+
+          inclN   RoN   covN  
+----------------------------- 
+1  AICAP  0.722  0.799  0.738 
+----------------------------- 
+
+~AICAP:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  ~AICAP  0.547  0.675  0.538 
+------------------------------ 
+
+
+AIGOV:
+
+          inclN   RoN   covN  
+----------------------------- 
+1  AIGOV  0.736  0.803  0.748 
+----------------------------- 
+
+~AIGOV:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  ~AIGOV  0.568  0.690  0.562 
+------------------------------ 
+
+
+SUSSRC:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  SUSSRC  0.717  0.824  0.762 
+------------------------------ 
+
+~SUSSRC:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  ~SUSSRC  0.606  0.678  0.575 
+------------------------------- 
+
+
+DIGVIS:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  DIGVIS  0.791  0.846  0.810 
+------------------------------ 
+
+~DIGVIS:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  ~DIGVIS  0.523  0.664  0.514 
+------------------------------- 
+
+
+SUPCOLL:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  SUPCOLL  0.816  0.862  0.833 
+------------------------------- 
+
+~SUPCOLL:
+
+             inclN   RoN   covN  
+-------------------------------- 
+1  ~SUPCOLL  0.507  0.658  0.499 
+-------------------------------- 
+
+
+SUPDIV:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  SUPDIV  0.756  0.850  0.803 
+------------------------------ 
+
+~SUPDIV:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  ~SUPDIV  0.529  0.642  0.502 
+------------------------------- 
+
+
+--- Single-condition sufficiency (SCR) ---
+
+AICAP:
+
+          inclS   PRI   covS   covU  
+------------------------------------ 
+1  AICAP  0.738  0.591  0.722    -   
+------------------------------------ 
+
+~AICAP:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  ~AICAP  0.538  0.300  0.547    -   
+------------------------------------- 
+
+
+AIGOV:
+
+          inclS   PRI   covS   covU  
+------------------------------------ 
+1  AIGOV  0.748  0.599  0.736    -   
+------------------------------------ 
+
+~AIGOV:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  ~AIGOV  0.562  0.313  0.568    -   
+------------------------------------- 
+
+
+SUSSRC:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  SUSSRC  0.762  0.608  0.717    -   
+------------------------------------- 
+
+~SUSSRC:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  ~SUSSRC  0.575  0.332  0.606    -   
+-------------------------------------- 
+
+
+DIGVIS:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  DIGVIS  0.810  0.692  0.791    -   
+------------------------------------- 
+
+~DIGVIS:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  ~DIGVIS  0.514  0.238  0.523    -   
+-------------------------------------- 
+
+
+SUPCOLL:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  SUPCOLL  0.833  0.721  0.816    -   
+-------------------------------------- 
+
+~SUPCOLL:
+
+             inclS   PRI   covS   covU  
+--------------------------------------- 
+1  ~SUPCOLL  0.499  0.227  0.507    -   
+--------------------------------------- 
+
+
+SUPDIV:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  SUPDIV  0.803  0.695  0.756    -   
+------------------------------------- 
+
+~SUPDIV:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  ~SUPDIV  0.502  0.222  0.529    -   
+-------------------------------------- 
+
+
+=== COMPLEX solution ===
+
+M1: ~AICAP*SUSSRC*DIGVIS*SUPCOLL*SUPDIV + AICAP*AIGOV*SUSSRC*DIGVIS*SUPCOLL +
+    AICAP*AIGOV*DIGVIS*SUPCOLL*SUPDIV + ~AICAP*~AIGOV*~SUSSRC*~DIGVIS*SUPCOLL*SUPDIV +
+    ~AICAP*~AIGOV*SUSSRC*~DIGVIS*SUPCOLL*~SUPDIV -> SCR
+
+                                                 inclS   PRI   covS   covU  
+--------------------------------------------------------------------------- 
+1           ~AICAP*SUSSRC*DIGVIS*SUPCOLL*SUPDIV  0.945  0.839  0.343  0.045 
+2             AICAP*AIGOV*SUSSRC*DIGVIS*SUPCOLL  0.961  0.915  0.500  0.027 
+3             AICAP*AIGOV*DIGVIS*SUPCOLL*SUPDIV  0.954  0.909  0.506  0.044 
+4  ~AICAP*~AIGOV*~SUSSRC*~DIGVIS*SUPCOLL*SUPDIV  0.908  0.649  0.246  0.006 
+5  ~AICAP*~AIGOV*SUSSRC*~DIGVIS*SUPCOLL*~SUPDIV  0.922  0.635  0.281  0.032 
+--------------------------------------------------------------------------- 
+                                             M1  0.916  0.839  0.687 
+
+                                                 cases 
+------------------------------------------------------ 
+1           ~AICAP*SUSSRC*DIGVIS*SUPCOLL*SUPDIV  KLA_Corporation_2024,Texas_Instruments_2023,Texas_Instruments_2024,United_Microelectronics_Corp._2024;
+                                                 ASE_Technology_Holding_2025,Microchip_Technology_2025,Texas_Instruments_2025
+2             AICAP*AIGOV*SUSSRC*DIGVIS*SUPCOLL  Advanced_Micro_Devices_2024,Broadcom_Inc._2025,KLA_Corporation_2025,SK_Hynix_2023,onsemi_2025;
+                                                 Advanced_Micro_Devices_2025,Applied_Materials_2025,Intel_Corporation_2023,Intel_Corporation_2024,Intel_Corporation_2025,MediaTek_Inc._2025,Micron_Technology_2024,Micron_Technology_2025,NVIDIA_Corporation_2024,NVIDIA_Corporation_2025,Qualcomm_Incorporated_2024,SK_Hynix_2024,SK_Hynix_2025,Samsung_Electronics_2024,Taiwan_Semiconductor_Manufacturing_Co._2023,Taiwan_Semiconductor_Manufacturing_Co._2024,Taiwan_Semiconductor_Manufacturing_Co._2025,United_Microelectronics_Corp._2025
+3             AICAP*AIGOV*DIGVIS*SUPCOLL*SUPDIV  Micron_Technology_2023,NVIDIA_Corporation_2023,Samsung_Electronics_2023,Samsung_Electronics_2025;
+                                                 Advanced_Micro_Devices_2025,Applied_Materials_2025,Intel_Corporation_2023,Intel_Corporation_2024,Intel_Corporation_2025,MediaTek_Inc._2025,Micron_Technology_2024,Micron_Technology_2025,NVIDIA_Corporation_2024,NVIDIA_Corporation_2025,Qualcomm_Incorporated_2024,SK_Hynix_2024,SK_Hynix_2025,Samsung_Electronics_2024,Taiwan_Semiconductor_Manufacturing_Co._2023,Taiwan_Semiconductor_Manufacturing_Co._2024,Taiwan_Semiconductor_Manufacturing_Co._2025,United_Microelectronics_Corp._2025
+4  ~AICAP*~AIGOV*~SUSSRC*~DIGVIS*SUPCOLL*SUPDIV  ASE_Technology_Holding_2023,United_Microelectronics_Corp._2023
+5  ~AICAP*~AIGOV*SUSSRC*~DIGVIS*SUPCOLL*~SUPDIV  KLA_Corporation_2023,onsemi_2023
+------------------------------------------------------ 
+
+
+=== PARSIMONIOUS solution ===
+
+M1: SUPCOLL -> SCR
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  SUPCOLL  0.833  0.721  0.816    -   
+-------------------------------------- 
+        M1  0.833  0.721  0.816 
+
+            cases 
+----------------- 
+1  SUPCOLL  ASE_Technology_Holding_2023,United_Microelectronics_Corp._2023; KLA_Corporation_2023,onsemi_2023;
+            KLA_Corporation_2024,Texas_Instruments_2023,Texas_Instruments_2024,United_Microelectronics_Corp._2024;
+            ASE_Technology_Holding_2025,Microchip_Technology_2025,Texas_Instruments_2025; Micron_Technology_2023,NVIDIA_Corporation_2023,Samsung_Electronics_2023,Samsung_Electronics_2025;
+            Advanced_Micro_Devices_2024,Broadcom_Inc._2025,KLA_Corporation_2025,SK_Hynix_2023,onsemi_2025;
+            Advanced_Micro_Devices_2025,Applied_Materials_2025,Intel_Corporation_2023,Intel_Corporation_2024,Intel_Corporation_2025,MediaTek_Inc._2025,Micron_Technology_2024,Micron_Technology_2025,NVIDIA_Corporation_2024,NVIDIA_Corporation_2025,Qualcomm_Incorporated_2024,SK_Hynix_2024,SK_Hynix_2025,Samsung_Electronics_2024,Taiwan_Semiconductor_Manufacturing_Co._2023,Taiwan_Semiconductor_Manufacturing_Co._2024,Taiwan_Semiconductor_Manufacturing_Co._2025,United_Microelectronics_Corp._2025
+----------------- 
+
+
+=== INTERMEDIATE solution ===
+
+From C1P1: 
+
+M1:    SUSSRC*SUPCOLL + SUPCOLL*SUPDIV -> SCR 
+
+                   inclS   PRI   covS   covU  
+--------------------------------------------- 
+1  SUSSRC*SUPCOLL  0.911  0.829  0.672  0.104 
+2  SUPCOLL*SUPDIV  0.887  0.800  0.628  0.060 
+--------------------------------------------- 
+               M1  0.872  0.772  0.732 
+
+                   cases 
+------------------------ 
+1  SUSSRC*SUPCOLL  KLA_Corporation_2023,onsemi_2023; KLA_Corporation_2024,Texas_Instruments_2023,Texas_Instruments_2024,United_Microelectronics_Corp._2024;
+                   ASE_Technology_Holding_2025,Microchip_Technology_2025,Texas_Instruments_2025; Advanced_Micro_Devices_2024,Broadcom_Inc._2025,KLA_Corporation_2025,SK_Hynix_2023,onsemi_2025;
+                   Advanced_Micro_Devices_2025,Applied_Materials_2025,Intel_Corporation_2023,Intel_Corporation_2024,Intel_Corporation_2025,MediaTek_Inc._2025,Micron_Technology_2024,Micron_Technology_2025,NVIDIA_Corporation_2024,NVIDIA_Corporation_2025,Qualcomm_Incorporated_2024,SK_Hynix_2024,SK_Hynix_2025,Samsung_Electronics_2024,Taiwan_Semiconductor_Manufacturing_Co._2023,Taiwan_Semiconductor_Manufacturing_Co._2024,Taiwan_Semiconductor_Manufacturing_Co._2025,United_Microelectronics_Corp._2025
+2  SUPCOLL*SUPDIV  ASE_Technology_Holding_2023,United_Microelectronics_Corp._2023; KLA_Corporation_2024,Texas_Instruments_2023,Texas_Instruments_2024,United_Microelectronics_Corp._2024;
+                   ASE_Technology_Holding_2025,Microchip_Technology_2025,Texas_Instruments_2025; Micron_Technology_2023,NVIDIA_Corporation_2023,Samsung_Electronics_2023,Samsung_Electronics_2025;
+                   Advanced_Micro_Devices_2025,Applied_Materials_2025,Intel_Corporation_2023,Intel_Corporation_2024,Intel_Corporation_2025,MediaTek_Inc._2025,Micron_Technology_2024,Micron_Technology_2025,NVIDIA_Corporation_2024,NVIDIA_Corporation_2025,Qualcomm_Incorporated_2024,SK_Hynix_2024,SK_Hynix_2025,Samsung_Electronics_2024,Taiwan_Semiconductor_Manufacturing_Co._2023,Taiwan_Semiconductor_Manufacturing_Co._2024,Taiwan_Semiconductor_Manufacturing_Co._2025,United_Microelectronics_Corp._2025
+------------------------ 
+
+
+
+#####################################################################
+### Rubric anchors -- outcome SCR
+#####################################################################
+
+  OUT: output value
+    n: number of cases in configuration
+ incl: sufficiency inclusion score
+  PRI: proportional reduction in inconsistency
+
+     AICAP AIGOV SUSSRC DIGVIS SUPCOLL SUPDIV   OUT    n   incl  PRI  
+64     1     1     1      1       1      1       1     18  0.998 0.997
+48     1     0     1      1       1      1       1     7   0.994 0.988
+16     0     0     1      1       1      1       1     7   0.991 0.985
+15     0     0     1      1       1      0       1     2   0.990 0.977
+59     1     1     1      0       1      0       1     2   0.978 0.946
+47     1     0     1      1       1      0       1     9   0.960 0.915
+43     1     0     1      0       1      0       1     4   0.954 0.885
+ 3     0     0     0      0       1      0       1     2   0.945 0.516
+11     0     0     1      0       1      0       1     7   0.925 0.830
+ 2     0     0     0      0       0      1       1     3   0.917 0.841
+12     0     0     1      0       1      1       1     5   0.916 0.834
+36     1     0     0      0       1      1       1     2   0.886 0.608
+33     1     0     0      0       0      0       1     3   0.870 0.568
+41     1     0     1      0       0      0       0     2   0.866 0.497
+10     0     0     1      0       0      1       0     3   0.774 0.540
+25     0     1     1      0       0      0       0     2   0.705 0.075
+ 9     0     0     1      0       0      0       0     6   0.672 0.231
+ 1     0     0     0      0       0      0       0     14  0.464 0.016
+     cases                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+64   Advanced_Micro_Devices_2025,Intel_Corporation_2023,Intel_Corporation_2024,Intel_Corporation_2025,MediaTek_Inc._2025,Micron_Technology_2024,Micron_Technology_2025,NVIDIA_Corporation_2023,NVIDIA_Corporation_2024,NVIDIA_Corporation_2025,Qualcomm_Incorporated_2024,SK_Hynix_2024,SK_Hynix_2025,Samsung_Electronics_2023,Samsung_Electronics_2024,Samsung_Electronics_2025,Taiwan_Semiconductor_Manufacturing_Co._2023,Taiwan_Semiconductor_Manufacturing_Co._2025
+48   Applied_Materials_2025,GlobalFoundries_2025,Lam_Research_2024,Lam_Research_2025,Micron_Technology_2023,Taiwan_Semiconductor_Manufacturing_Co._2024,United_Microelectronics_Corp._2025                                                                                                                                                                                                                                                                              
+16   ASE_Technology_Holding_2025,Analog_Devices_2025,GlobalFoundries_2024,Texas_Instruments_2023,Texas_Instruments_2024,Texas_Instruments_2025,United_Microelectronics_Corp._2024                                                                                                                                                                                                                                                                                       
+15   Applied_Materials_2023,Venture_Corporation_2025                                                                                                                                                                                                                                                                                                                                                                                                                    
+59   Advanced_Micro_Devices_2023,Qualcomm_Incorporated_2023                                                                                                                                                                                                                                                                                                                                                                                                             
+47   ASE_Technology_Holding_2024,Broadcom_Inc._2024,Broadcom_Inc._2025,KLA_Corporation_2025,Marvell_Technology_2025,Phison_Electronics_2025,Realtek_Semiconductor_2025,SK_Hynix_2023,onsemi_2025                                                                                                                                                                                                                                                                        
+43   Applied_Materials_2024,Broadcom_Inc._2023,Phison_Electronics_2024,Realtek_Semiconductor_2024                                                                                                                                                                                                                                                                                                                                                                       
+ 3   Novatek_Microelectronics_2023,Wolfspeed_2023                                                                                                                                                                                                                                                                                                                                                                                                                       
+11   Analog_Devices_2024,KLA_Corporation_2023,Lam_Research_2023,Microchip_Technology_2024,Novatek_Microelectronics_2025,Skyworks_Solutions_2025,onsemi_2023                                                                                                                                                                                                                                                                                                             
+ 2   Frencken_Group_2023,Frencken_Group_2024,Frencken_Group_2025                                                                                                                                                                                                                                                                                                                                                                                                        
+12   ASE_Technology_Holding_2023,KLA_Corporation_2024,Microchip_Technology_2023,Microchip_Technology_2025,United_Microelectronics_Corp._2023                                                                                                                                                                                                                                                                                                                            
+36   Himax_Technologies_2024,Himax_Technologies_2025                                                                                                                                                                                                                                                                                                                                                                                                                    
+33   AEM_Holdings_2023,AEM_Holdings_2024,Marvell_Technology_2023                                                                                                                                                                                                                                                                                                                                                                                                        
+41   MediaTek_Inc._2023,Phison_Electronics_2023                                                                                                                                                                                                                                                                                                                                                                                                                         
+10   GlobalFoundries_2023,Hana_Micron_2024,Hana_Micron_2025                                                                                                                                                                                                                                                                                                                                                                                                             
+25   LX_Semicon_2024,LX_Semicon_2025                                                                                                                                                                                                                                                                                                                                                                                                                                    
+ 9   Analog_Devices_2023,Hana_Micron_2023,Novatek_Microelectronics_2024,Realtek_Semiconductor_2023,Skyworks_Solutions_2023,Skyworks_Solutions_2024                                                                                                                                                                                                                                                                                                                      
+ 1   DB_HiTek_2023,DB_HiTek_2024,DB_HiTek_2025,LX_Semicon_2023,Nanya_Technology_2023,Nanya_Technology_2024,Nanya_Technology_2025,UMS_Holdings_2023,UMS_Holdings_2024,UMS_Holdings_2025,Venture_Corporation_2023,Venture_Corporation_2024,Wolfspeed_2024,Wolfspeed_2025                                                                                                                                                                                                  
+
+Positive rows before/after firm-diversity filter: 13 -> 11 (demoted: 2, 36)
+
+--- Necessity (SCR) ---
+
+AICAP:
+
+          inclN   RoN   covN  
+----------------------------- 
+1  AICAP  0.656  0.849  0.828 
+----------------------------- 
+
+~AICAP:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  ~AICAP  0.447  0.714  0.585 
+------------------------------ 
+
+
+AIGOV:
+
+          inclN   RoN   covN  
+----------------------------- 
+1  AIGOV  0.390  0.981  0.946 
+----------------------------- 
+
+~AIGOV:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  ~AIGOV  0.704  0.484  0.615 
+------------------------------ 
+
+
+SUSSRC:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  SUSSRC  0.884  0.616  0.774 
+------------------------------ 
+
+~SUSSRC:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  ~SUSSRC  0.239  0.867  0.577 
+------------------------------- 
+
+
+DIGVIS:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  DIGVIS  0.689  0.957  0.949 
+------------------------------ 
+
+~DIGVIS:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  ~DIGVIS  0.484  0.677  0.583 
+------------------------------- 
+
+
+SUPCOLL:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  SUPCOLL  0.860  0.843  0.887 
+------------------------------- 
+
+~SUPCOLL:
+
+             inclN   RoN   covN  
+-------------------------------- 
+1  ~SUPCOLL  0.316  0.782  0.538 
+-------------------------------- 
+
+
+SUPDIV:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  SUPDIV  0.651  0.887  0.865 
+------------------------------ 
+
+~SUPDIV:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  ~SUPDIV  0.461  0.687  0.574 
+------------------------------- 
+
+
+--- Single-condition sufficiency (SCR) ---
+
+AICAP:
+
+          inclS   PRI   covS   covU  
+------------------------------------ 
+1  AICAP  0.828  0.777  0.656    -   
+------------------------------------ 
+
+~AICAP:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  ~AICAP  0.585  0.456  0.447    -   
+------------------------------------- 
+
+
+AIGOV:
+
+          inclS   PRI   covS   covU  
+------------------------------------ 
+1  AIGOV  0.946  0.929  0.390    -   
+------------------------------------ 
+
+~AIGOV:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  ~AIGOV  0.615  0.503  0.704    -   
+------------------------------------- 
+
+
+SUSSRC:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  SUSSRC  0.774  0.717  0.884    -   
+------------------------------------- 
+
+~SUSSRC:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  ~SUSSRC  0.577  0.328  0.239    -   
+-------------------------------------- 
+
+
+DIGVIS:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  DIGVIS  0.949  0.931  0.689    -   
+------------------------------------- 
+
+~DIGVIS:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  ~DIGVIS  0.583  0.411  0.484    -   
+-------------------------------------- 
+
+
+SUPCOLL:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  SUPCOLL  0.887  0.851  0.860    -   
+-------------------------------------- 
+
+~SUPCOLL:
+
+             inclS   PRI   covS   covU  
+--------------------------------------- 
+1  ~SUPCOLL  0.538  0.298  0.316    -   
+--------------------------------------- 
+
+
+SUPDIV:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  SUPDIV  0.865  0.829  0.651    -   
+------------------------------------- 
+
+~SUPDIV:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  ~SUPDIV  0.574  0.418  0.461    -   
+-------------------------------------- 
+
+
+=== COMPLEX solution ===
+
+M1: ~AICAP*~AIGOV*SUSSRC*SUPCOLL + ~AICAP*~AIGOV*~DIGVIS*SUPCOLL*~SUPDIV +
+    AICAP*SUSSRC*~DIGVIS*SUPCOLL*~SUPDIV + AICAP*SUSSRC*DIGVIS*SUPCOLL*SUPDIV +
+    AICAP*~AIGOV*~SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV + (~AIGOV*SUSSRC*DIGVIS*SUPCOLL) -> SCR 
+M2: ~AICAP*~AIGOV*SUSSRC*SUPCOLL + ~AICAP*~AIGOV*~DIGVIS*SUPCOLL*~SUPDIV +
+    AICAP*SUSSRC*~DIGVIS*SUPCOLL*~SUPDIV + AICAP*SUSSRC*DIGVIS*SUPCOLL*SUPDIV +
+    AICAP*~AIGOV*~SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV + (~AIGOV*SUSSRC*SUPCOLL*~SUPDIV) -> SCR 
+
+                                                                       ------------------- 
+                                                  inclS   PRI   covS   covU   (M1)   (M2)  
+------------------------------------------------------------------------------------------ 
+1                  ~AICAP*~AIGOV*SUSSRC*SUPCOLL  0.911  0.849  0.344  0.019  0.020  0.075 
+2         ~AICAP*~AIGOV*~DIGVIS*SUPCOLL*~SUPDIV  0.913  0.799  0.229  0.016  0.016  0.016 
+3          AICAP*SUSSRC*~DIGVIS*SUPCOLL*~SUPDIV  0.961  0.919  0.218  0.011  0.014  0.011 
+4            AICAP*SUSSRC*DIGVIS*SUPCOLL*SUPDIV  0.996  0.994  0.428  0.181  0.181  0.227 
+5 AICAP*~AIGOV*~SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV  0.870  0.568  0.086  0.013  0.013  0.013 
+------------------------------------------------------------------------------------------ 
+6                   ~AIGOV*SUSSRC*DIGVIS*SUPCOLL  0.974  0.957  0.421  0.011  0.039        
+7                  ~AIGOV*SUSSRC*SUPCOLL*~SUPDIV  0.915  0.839  0.344  0.009         0.038 
+------------------------------------------------------------------------------------------ 
+                                              M1  0.924  0.893  0.749 
+                                              M2  0.920  0.887  0.747 
+
+                                                  cases 
+------------------------------------------------------- 
+1                   ~AICAP*~AIGOV*SUSSRC*SUPCOLL  Analog_Devices_2024,KLA_Corporation_2023,Lam_Research_2023,Microchip_Technology_2024,Novatek_Microelectronics_2025,Skyworks_Solutions_2025,onsemi_2023;
+                                                  ASE_Technology_Holding_2023,KLA_Corporation_2024,Microchip_Technology_2023,Microchip_Technology_2025,United_Microelectronics_Corp._2023;
+                                                  Applied_Materials_2023,Venture_Corporation_2025; ASE_Technology_Holding_2025,Analog_Devices_2025,GlobalFoundries_2024,Texas_Instruments_2023,Texas_Instruments_2024,Texas_Instruments_2025,United_Microelectronics_Corp._2024
+2          ~AICAP*~AIGOV*~DIGVIS*SUPCOLL*~SUPDIV  Novatek_Microelectronics_2023,Wolfspeed_2023; Analog_Devices_2024,KLA_Corporation_2023,Lam_Research_2023,Microchip_Technology_2024,Novatek_Microelectronics_2025,Skyworks_Solutions_2025,onsemi_2023
+3           AICAP*SUSSRC*~DIGVIS*SUPCOLL*~SUPDIV  Applied_Materials_2024,Broadcom_Inc._2023,Phison_Electronics_2024,Realtek_Semiconductor_2024;
+                                                  Advanced_Micro_Devices_2023,Qualcomm_Incorporated_2023
+4             AICAP*SUSSRC*DIGVIS*SUPCOLL*SUPDIV  Applied_Materials_2025,GlobalFoundries_2025,Lam_Research_2024,Lam_Research_2025,Micron_Technology_2023,Taiwan_Semiconductor_Manufacturing_Co._2024,United_Microelectronics_Corp._2025;
+                                                  Advanced_Micro_Devices_2025,Intel_Corporation_2023,Intel_Corporation_2024,Intel_Corporation_2025,MediaTek_Inc._2025,Micron_Technology_2024,Micron_Technology_2025,NVIDIA_Corporation_2023,NVIDIA_Corporation_2024,NVIDIA_Corporation_2025,Qualcomm_Incorporated_2024,SK_Hynix_2024,SK_Hynix_2025,Samsung_Electronics_2023,Samsung_Electronics_2024,Samsung_Electronics_2025,Taiwan_Semiconductor_Manufacturing_Co._2023,Taiwan_Semiconductor_Manufacturing_Co._2025
+5  AICAP*~AIGOV*~SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV  AEM_Holdings_2023,AEM_Holdings_2024,Marvell_Technology_2023
+------------------------------------------------------- 
+6                   ~AIGOV*SUSSRC*DIGVIS*SUPCOLL  Applied_Materials_2023,Venture_Corporation_2025; ASE_Technology_Holding_2025,Analog_Devices_2025,GlobalFoundries_2024,Texas_Instruments_2023,Texas_Instruments_2024,Texas_Instruments_2025,United_Microelectronics_Corp._2024;
+                                                  ASE_Technology_Holding_2024,Broadcom_Inc._2024,Broadcom_Inc._2025,KLA_Corporation_2025,Marvell_Technology_2025,Phison_Electronics_2025,Realtek_Semiconductor_2025,SK_Hynix_2023,onsemi_2025;
+                                                  Applied_Materials_2025,GlobalFoundries_2025,Lam_Research_2024,Lam_Research_2025,Micron_Technology_2023,Taiwan_Semiconductor_Manufacturing_Co._2024,United_Microelectronics_Corp._2025
+7                  ~AIGOV*SUSSRC*SUPCOLL*~SUPDIV  Analog_Devices_2024,KLA_Corporation_2023,Lam_Research_2023,Microchip_Technology_2024,Novatek_Microelectronics_2025,Skyworks_Solutions_2025,onsemi_2023;
+                                                  Applied_Materials_2023,Venture_Corporation_2025; Applied_Materials_2024,Broadcom_Inc._2023,Phison_Electronics_2024,Realtek_Semiconductor_2024;
+                                                  ASE_Technology_Holding_2024,Broadcom_Inc._2024,Broadcom_Inc._2025,KLA_Corporation_2025,Marvell_Technology_2025,Phison_Electronics_2025,Realtek_Semiconductor_2025,SK_Hynix_2023,onsemi_2025
+------------------------------------------------------- 
+
+
+=== PARSIMONIOUS solution ===
+
+M1: SUPCOLL + AICAP*~SUSSRC -> SCR
+
+                  inclS   PRI   covS   covU  
+-------------------------------------------- 
+1        SUPCOLL  0.887  0.851  0.860  0.735 
+2  AICAP*~SUSSRC  0.792  0.524  0.142  0.017 
+-------------------------------------------- 
+              M1  0.867  0.823  0.878 
+
+                  cases 
+----------------------- 
+1        SUPCOLL  Novatek_Microelectronics_2023,Wolfspeed_2023; Analog_Devices_2024,KLA_Corporation_2023,Lam_Research_2023,Microchip_Technology_2024,Novatek_Microelectronics_2025,Skyworks_Solutions_2025,onsemi_2023;
+                  ASE_Technology_Holding_2023,KLA_Corporation_2024,Microchip_Technology_2023,Microchip_Technology_2025,United_Microelectronics_Corp._2023;
+                  Applied_Materials_2023,Venture_Corporation_2025; ASE_Technology_Holding_2025,Analog_Devices_2025,GlobalFoundries_2024,Texas_Instruments_2023,Texas_Instruments_2024,Texas_Instruments_2025,United_Microelectronics_Corp._2024;
+                  Applied_Materials_2024,Broadcom_Inc._2023,Phison_Electronics_2024,Realtek_Semiconductor_2024;
+                  ASE_Technology_Holding_2024,Broadcom_Inc._2024,Broadcom_Inc._2025,KLA_Corporation_2025,Marvell_Technology_2025,Phison_Electronics_2025,Realtek_Semiconductor_2025,SK_Hynix_2023,onsemi_2025;
+                  Applied_Materials_2025,GlobalFoundries_2025,Lam_Research_2024,Lam_Research_2025,Micron_Technology_2023,Taiwan_Semiconductor_Manufacturing_Co._2024,United_Microelectronics_Corp._2025;
+                  Advanced_Micro_Devices_2023,Qualcomm_Incorporated_2023; Advanced_Micro_Devices_2025,Intel_Corporation_2023,Intel_Corporation_2024,Intel_Corporation_2025,MediaTek_Inc._2025,Micron_Technology_2024,Micron_Technology_2025,NVIDIA_Corporation_2023,NVIDIA_Corporation_2024,NVIDIA_Corporation_2025,Qualcomm_Incorporated_2024,SK_Hynix_2024,SK_Hynix_2025,Samsung_Electronics_2023,Samsung_Electronics_2024,Samsung_Electronics_2025,Taiwan_Semiconductor_Manufacturing_Co._2023,Taiwan_Semiconductor_Manufacturing_Co._2025
+2  AICAP*~SUSSRC  AEM_Holdings_2023,AEM_Holdings_2024,Marvell_Technology_2023
+----------------------- 
+
+
+=== INTERMEDIATE solution ===
+
+From C1P1, C2P1: 
+
+M1:    SUPCOLL + AICAP*~SUSSRC -> SCR 
+
+                  inclS   PRI   covS   covU  
+-------------------------------------------- 
+1        SUPCOLL  0.887  0.851  0.860  0.735 
+2  AICAP*~SUSSRC  0.792  0.524  0.142  0.017 
+-------------------------------------------- 
+              M1  0.867  0.823  0.878 
+
+                  cases 
+----------------------- 
+1        SUPCOLL  Novatek_Microelectronics_2023,Wolfspeed_2023; Analog_Devices_2024,KLA_Corporation_2023,Lam_Research_2023,Microchip_Technology_2024,Novatek_Microelectronics_2025,Skyworks_Solutions_2025,onsemi_2023;
+                  ASE_Technology_Holding_2023,KLA_Corporation_2024,Microchip_Technology_2023,Microchip_Technology_2025,United_Microelectronics_Corp._2023;
+                  Applied_Materials_2023,Venture_Corporation_2025; ASE_Technology_Holding_2025,Analog_Devices_2025,GlobalFoundries_2024,Texas_Instruments_2023,Texas_Instruments_2024,Texas_Instruments_2025,United_Microelectronics_Corp._2024;
+                  Applied_Materials_2024,Broadcom_Inc._2023,Phison_Electronics_2024,Realtek_Semiconductor_2024;
+                  ASE_Technology_Holding_2024,Broadcom_Inc._2024,Broadcom_Inc._2025,KLA_Corporation_2025,Marvell_Technology_2025,Phison_Electronics_2025,Realtek_Semiconductor_2025,SK_Hynix_2023,onsemi_2025;
+                  Applied_Materials_2025,GlobalFoundries_2025,Lam_Research_2024,Lam_Research_2025,Micron_Technology_2023,Taiwan_Semiconductor_Manufacturing_Co._2024,United_Microelectronics_Corp._2025;
+                  Advanced_Micro_Devices_2023,Qualcomm_Incorporated_2023; Advanced_Micro_Devices_2025,Intel_Corporation_2023,Intel_Corporation_2024,Intel_Corporation_2025,MediaTek_Inc._2025,Micron_Technology_2024,Micron_Technology_2025,NVIDIA_Corporation_2023,NVIDIA_Corporation_2024,NVIDIA_Corporation_2025,Qualcomm_Incorporated_2024,SK_Hynix_2024,SK_Hynix_2025,Samsung_Electronics_2023,Samsung_Electronics_2024,Samsung_Electronics_2025,Taiwan_Semiconductor_Manufacturing_Co._2023,Taiwan_Semiconductor_Manufacturing_Co._2025
+2  AICAP*~SUSSRC  AEM_Holdings_2023,AEM_Holdings_2024,Marvell_Technology_2023
+----------------------- 
+
+
+
+#####################################################################
+### Percentile anchors -- outcome ~SCR
+#####################################################################
+
+  OUT: output value
+    n: number of cases in configuration
+ incl: sufficiency inclusion score
+  PRI: proportional reduction in inconsistency
+
+     AICAP AIGOV SUSSRC DIGVIS SUPCOLL SUPDIV   OUT    n   incl  PRI  
+17     0     1     0      0       0      0       1     6   0.983 0.949
+25     0     1     1      0       0      0       1     2   0.981 0.921
+ 1     0     0     0      0       0      0       1     15  0.978 0.956
+45     1     0     1      1       0      0       1     2   0.976 0.830
+57     1     1     1      0       0      0       1     2   0.943 0.687
+37     1     0     0      1       0      0       1     2   0.941 0.732
+33     1     0     0      0       0      0       1     3   0.933 0.741
+34     1     0     0      0       0      1       1     2   0.913 0.649
+10     0     0     1      0       0      1       1     2   0.906 0.686
+11     0     0     1      0       1      0       0     2   0.865 0.365
+15     0     0     1      1       1      0       0     2   0.835 0.208
+ 4     0     0     0      0       1      1       0     2   0.829 0.351
+ 2     0     0     0      0       0      1       1     5   0.828 0.544
+48     1     0     1      1       1      1       0     2   0.794 0.160
+63     1     1     1      1       1      0       0     5   0.787 0.162
+32     0     1     1      1       1      1       0     3   0.769 0.176
+16     0     0     1      1       1      1       0     4   0.724 0.165
+56     1     1     0      1       1      1       0     4   0.685 0.065
+64     1     1     1      1       1      1       0     18  0.570 0.066
+     cases                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+17   DB_HiTek_2025,Nanya_Technology_2025,Novatek_Microelectronics_2024,Novatek_Microelectronics_2025,Skyworks_Solutions_2024,Wolfspeed_2025                                                                                                                                                                                                                                                                                                                                                         
+25   LX_Semicon_2024,LX_Semicon_2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+ 1   DB_HiTek_2023,DB_HiTek_2024,Hana_Micron_2023,LX_Semicon_2023,Nanya_Technology_2023,Nanya_Technology_2024,Novatek_Microelectronics_2023,Realtek_Semiconductor_2023,Skyworks_Solutions_2023,UMS_Holdings_2023,UMS_Holdings_2024,UMS_Holdings_2025,Venture_Corporation_2023,Wolfspeed_2023,Wolfspeed_2024                                                                                                                                                                                         
+45   Broadcom_Inc._2024,Phison_Electronics_2024                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+57   MediaTek_Inc._2023,Phison_Electronics_2023                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+37   AEM_Holdings_2025,Realtek_Semiconductor_2024                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+33   AEM_Holdings_2023,AEM_Holdings_2024,Marvell_Technology_2023                                                                                                                                                                                                                                                                                                                                                                                                                                    
+34   Himax_Technologies_2023,Himax_Technologies_2024                                                                                                                                                                                                                                                                                                                                                                                                                                                
+10   Hana_Micron_2024,Microchip_Technology_2023                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+11   KLA_Corporation_2023,onsemi_2023                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+15   Applied_Materials_2023,Applied_Materials_2024                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+ 4   ASE_Technology_Holding_2023,United_Microelectronics_Corp._2023                                                                                                                                                                                                                                                                                                                                                                                                                                 
+ 2   Analog_Devices_2023,Frencken_Group_2023,Frencken_Group_2024,GlobalFoundries_2023,Venture_Corporation_2024                                                                                                                                                                                                                                                                                                                                                                                      
+48   Lam_Research_2024,Lam_Research_2025                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+63   Advanced_Micro_Devices_2024,Broadcom_Inc._2025,KLA_Corporation_2025,SK_Hynix_2023,onsemi_2025                                                                                                                                                                                                                                                                                                                                                                                                  
+32   ASE_Technology_Holding_2025,Microchip_Technology_2025,Texas_Instruments_2025                                                                                                                                                                                                                                                                                                                                                                                                                   
+16   KLA_Corporation_2024,Texas_Instruments_2023,Texas_Instruments_2024,United_Microelectronics_Corp._2024                                                                                                                                                                                                                                                                                                                                                                                          
+56   Micron_Technology_2023,NVIDIA_Corporation_2023,Samsung_Electronics_2023,Samsung_Electronics_2025                                                                                                                                                                                                                                                                                                                                                                                               
+64   Advanced_Micro_Devices_2025,Applied_Materials_2025,Intel_Corporation_2023,Intel_Corporation_2024,Intel_Corporation_2025,MediaTek_Inc._2025,Micron_Technology_2024,Micron_Technology_2025,NVIDIA_Corporation_2024,NVIDIA_Corporation_2025,Qualcomm_Incorporated_2024,SK_Hynix_2024,SK_Hynix_2025,Samsung_Electronics_2024,Taiwan_Semiconductor_Manufacturing_Co._2023,Taiwan_Semiconductor_Manufacturing_Co._2024,Taiwan_Semiconductor_Manufacturing_Co._2025,United_Microelectronics_Corp._2025
+
+Positive rows before/after firm-diversity filter: 10 -> 8 (demoted: 25, 34)
+
+--- Necessity (negSCR) ---
+
+AICAP:
+
+          inclN   RoN   covN  
+----------------------------- 
+1  AICAP  0.527  0.692  0.537 
+----------------------------- 
+
+~AICAP:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  ~AICAP  0.743  0.778  0.726 
+------------------------------ 
+
+
+AIGOV:
+
+          inclN   RoN   covN  
+----------------------------- 
+1  AIGOV  0.555  0.701  0.561 
+----------------------------- 
+
+~AIGOV:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  ~AIGOV  0.751  0.788  0.739 
+------------------------------ 
+
+
+SUSSRC:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  SUSSRC  0.551  0.728  0.582 
+------------------------------ 
+
+~SUSSRC:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  ~SUSSRC  0.774  0.769  0.732 
+------------------------------- 
+
+
+DIGVIS:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  DIGVIS  0.503  0.681  0.512 
+------------------------------ 
+
+~DIGVIS:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  ~DIGVIS  0.813  0.824  0.795 
+------------------------------- 
+
+
+SUPCOLL:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  SUPCOLL  0.488  0.674  0.497 
+------------------------------- 
+
+~SUPCOLL:
+
+             inclN   RoN   covN  
+-------------------------------- 
+1  ~SUPCOLL  0.836  0.841  0.819 
+-------------------------------- 
+
+
+SUPDIV:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  SUPDIV  0.473  0.691  0.500 
+------------------------------ 
+
+~SUPDIV:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  ~SUPDIV  0.814  0.794  0.768 
+------------------------------- 
+
+
+--- Single-condition sufficiency (negSCR) ---
+
+AICAP:
+
+          inclS   PRI   covS   covU  
+------------------------------------ 
+1  AICAP  0.537  0.276  0.527    -   
+------------------------------------ 
+
+~AICAP:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  ~AICAP  0.726  0.586  0.743    -   
+------------------------------------- 
+
+
+AIGOV:
+
+          inclS   PRI   covS   covU  
+------------------------------------ 
+1  AIGOV  0.561  0.301  0.555    -   
+------------------------------------ 
+
+~AIGOV:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  ~AIGOV  0.739  0.590  0.751    -   
+------------------------------------- 
+
+
+SUSSRC:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  SUSSRC  0.582  0.313  0.551    -   
+------------------------------------- 
+
+~SUSSRC:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  ~SUSSRC  0.732  0.578  0.774    -   
+-------------------------------------- 
+
+
+DIGVIS:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  DIGVIS  0.512  0.209  0.503    -   
+------------------------------------- 
+
+~DIGVIS:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  ~DIGVIS  0.795  0.679  0.813    -   
+-------------------------------------- 
+
+
+SUPCOLL:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  SUPCOLL  0.497  0.158  0.488    -   
+-------------------------------------- 
+
+~SUPCOLL:
+
+             inclS   PRI   covS   covU  
+--------------------------------------- 
+1  ~SUPCOLL  0.819  0.720  0.836    -   
+--------------------------------------- 
+
+
+SUPDIV:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  SUPDIV  0.500  0.225  0.473    -   
+------------------------------------- 
+
+~SUPDIV:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  ~SUPDIV  0.768  0.638  0.814    -   
+-------------------------------------- 
+
+
+=== COMPLEX solution ===
+
+M1: ~AICAP*~AIGOV*~DIGVIS*~SUPCOLL*SUPDIV + ~AICAP*~SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV +
+    AICAP*~AIGOV*DIGVIS*~SUPCOLL*~SUPDIV + AICAP*AIGOV*SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV +
+    (AICAP*~AIGOV*~SUSSRC*~SUPCOLL*~SUPDIV) -> negSCR 
+M2: ~AICAP*~AIGOV*~DIGVIS*~SUPCOLL*SUPDIV + ~AICAP*~SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV +
+    AICAP*~AIGOV*DIGVIS*~SUPCOLL*~SUPDIV + AICAP*AIGOV*SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV +
+    (~AIGOV*~SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV) -> negSCR 
+
+                                                                     ------------------- 
+                                                inclS   PRI   covS   covU   (M1)   (M2)  
+---------------------------------------------------------------------------------------- 
+1       ~AICAP*~AIGOV*~DIGVIS*~SUPCOLL*SUPDIV  0.834  0.564  0.260  0.026  0.026  0.026 
+2     ~AICAP*~SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV  0.973  0.950  0.501  0.042  0.226  0.042 
+3        AICAP*~AIGOV*DIGVIS*~SUPCOLL*~SUPDIV  0.947  0.777  0.286  0.015  0.015  0.033 
+4 AICAP*AIGOV*SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV  0.943  0.687  0.238  0.021  0.021  0.021 
+---------------------------------------------------------------------------------------- 
+5        AICAP*~AIGOV*~SUSSRC*~SUPCOLL*~SUPDIV  0.919  0.726  0.275  0.005  0.011        
+6      ~AIGOV*~SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV  0.951  0.905  0.498  0.003         0.009 
+---------------------------------------------------------------------------------------- 
+                                            M1  0.887  0.799  0.655 
+                                            M2  0.888  0.799  0.653 
+
+                                                cases 
+----------------------------------------------------- 
+1        ~AICAP*~AIGOV*~DIGVIS*~SUPCOLL*SUPDIV  Analog_Devices_2023,Frencken_Group_2023,Frencken_Group_2024,GlobalFoundries_2023,Venture_Corporation_2024;
+                                                Hana_Micron_2024,Microchip_Technology_2023
+2      ~AICAP*~SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV  DB_HiTek_2023,DB_HiTek_2024,Hana_Micron_2023,LX_Semicon_2023,Nanya_Technology_2023,Nanya_Technology_2024,Novatek_Microelectronics_2023,Realtek_Semiconductor_2023,Skyworks_Solutions_2023,UMS_Holdings_2023,UMS_Holdings_2024,UMS_Holdings_2025,Venture_Corporation_2023,Wolfspeed_2023,Wolfspeed_2024;
+                                                DB_HiTek_2025,Nanya_Technology_2025,Novatek_Microelectronics_2024,Novatek_Microelectronics_2025,Skyworks_Solutions_2024,Wolfspeed_2025
+3         AICAP*~AIGOV*DIGVIS*~SUPCOLL*~SUPDIV  AEM_Holdings_2025,Realtek_Semiconductor_2024; Broadcom_Inc._2024,Phison_Electronics_2024
+4  AICAP*AIGOV*SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV  MediaTek_Inc._2023,Phison_Electronics_2023
+----------------------------------------------------- 
+5        AICAP*~AIGOV*~SUSSRC*~SUPCOLL*~SUPDIV  AEM_Holdings_2023,AEM_Holdings_2024,Marvell_Technology_2023;
+                                                AEM_Holdings_2025,Realtek_Semiconductor_2024
+6      ~AIGOV*~SUSSRC*~DIGVIS*~SUPCOLL*~SUPDIV  DB_HiTek_2023,DB_HiTek_2024,Hana_Micron_2023,LX_Semicon_2023,Nanya_Technology_2023,Nanya_Technology_2024,Novatek_Microelectronics_2023,Realtek_Semiconductor_2023,Skyworks_Solutions_2023,UMS_Holdings_2023,UMS_Holdings_2024,UMS_Holdings_2025,Venture_Corporation_2023,Wolfspeed_2023,Wolfspeed_2024;
+                                                AEM_Holdings_2023,AEM_Holdings_2024,Marvell_Technology_2023
+----------------------------------------------------- 
+
+
+=== PARSIMONIOUS solution ===
+
+M1: ~SUPCOLL -> negSCR
+
+             inclS   PRI   covS   covU  
+--------------------------------------- 
+1  ~SUPCOLL  0.819  0.720  0.836    -   
+--------------------------------------- 
+         M1  0.819  0.720  0.836 
+
+             cases 
+------------------ 
+1  ~SUPCOLL  DB_HiTek_2023,DB_HiTek_2024,Hana_Micron_2023,LX_Semicon_2023,Nanya_Technology_2023,Nanya_Technology_2024,Novatek_Microelectronics_2023,Realtek_Semiconductor_2023,Skyworks_Solutions_2023,UMS_Holdings_2023,UMS_Holdings_2024,UMS_Holdings_2025,Venture_Corporation_2023,Wolfspeed_2023,Wolfspeed_2024;
+             Analog_Devices_2023,Frencken_Group_2023,Frencken_Group_2024,GlobalFoundries_2023,Venture_Corporation_2024;
+             Hana_Micron_2024,Microchip_Technology_2023; DB_HiTek_2025,Nanya_Technology_2025,Novatek_Microelectronics_2024,Novatek_Microelectronics_2025,Skyworks_Solutions_2024,Wolfspeed_2025;
+             AEM_Holdings_2023,AEM_Holdings_2024,Marvell_Technology_2023; AEM_Holdings_2025,Realtek_Semiconductor_2024;
+             Broadcom_Inc._2024,Phison_Electronics_2024; MediaTek_Inc._2023,Phison_Electronics_2023
+------------------ 
+
+
+=== INTERMEDIATE solution ===
+
+From C1P1, C2P1: 
+
+M1:    ~AIGOV*~SUPCOLL*~SUPDIV + ~DIGVIS*~SUPCOLL*~SUPDIV + ~AICAP*~AIGOV*~DIGVIS*~SUPCOLL -> negSCR 
+
+                                   inclS   PRI   covS   covU  
+------------------------------------------------------------- 
+1         ~AIGOV*~SUPCOLL*~SUPDIV  0.943  0.891  0.592  0.048 
+2        ~DIGVIS*~SUPCOLL*~SUPDIV  0.945  0.902  0.648  0.103 
+3  ~AICAP*~AIGOV*~DIGVIS*~SUPCOLL  0.898  0.814  0.517  0.034 
+------------------------------------------------------------- 
+                               M1  0.884  0.806  0.729 
+
+                                   cases 
+---------------------------------------- 
+1         ~AIGOV*~SUPCOLL*~SUPDIV  DB_HiTek_2023,DB_HiTek_2024,Hana_Micron_2023,LX_Semicon_2023,Nanya_Technology_2023,Nanya_Technology_2024,Novatek_Microelectronics_2023,Realtek_Semiconductor_2023,Skyworks_Solutions_2023,UMS_Holdings_2023,UMS_Holdings_2024,UMS_Holdings_2025,Venture_Corporation_2023,Wolfspeed_2023,Wolfspeed_2024;
+                                   AEM_Holdings_2023,AEM_Holdings_2024,Marvell_Technology_2023; AEM_Holdings_2025,Realtek_Semiconductor_2024;
+                                   Broadcom_Inc._2024,Phison_Electronics_2024
+2        ~DIGVIS*~SUPCOLL*~SUPDIV  DB_HiTek_2023,DB_HiTek_2024,Hana_Micron_2023,LX_Semicon_2023,Nanya_Technology_2023,Nanya_Technology_2024,Novatek_Microelectronics_2023,Realtek_Semiconductor_2023,Skyworks_Solutions_2023,UMS_Holdings_2023,UMS_Holdings_2024,UMS_Holdings_2025,Venture_Corporation_2023,Wolfspeed_2023,Wolfspeed_2024;
+                                   DB_HiTek_2025,Nanya_Technology_2025,Novatek_Microelectronics_2024,Novatek_Microelectronics_2025,Skyworks_Solutions_2024,Wolfspeed_2025;
+                                   AEM_Holdings_2023,AEM_Holdings_2024,Marvell_Technology_2023; MediaTek_Inc._2023,Phison_Electronics_2023
+3  ~AICAP*~AIGOV*~DIGVIS*~SUPCOLL  DB_HiTek_2023,DB_HiTek_2024,Hana_Micron_2023,LX_Semicon_2023,Nanya_Technology_2023,Nanya_Technology_2024,Novatek_Microelectronics_2023,Realtek_Semiconductor_2023,Skyworks_Solutions_2023,UMS_Holdings_2023,UMS_Holdings_2024,UMS_Holdings_2025,Venture_Corporation_2023,Wolfspeed_2023,Wolfspeed_2024;
+                                   Analog_Devices_2023,Frencken_Group_2023,Frencken_Group_2024,GlobalFoundries_2023,Venture_Corporation_2024;
+                                   Hana_Micron_2024,Microchip_Technology_2023
+---------------------------------------- 
+
+
+
+#####################################################################
+### Rubric anchors -- outcome ~SCR
+#####################################################################
+
+  OUT: output value
+    n: number of cases in configuration
+ incl: sufficiency inclusion score
+  PRI: proportional reduction in inconsistency
+
+     AICAP AIGOV SUSSRC DIGVIS SUPCOLL SUPDIV   OUT    n   incl  PRI  
+ 1     0     0     0      0       0      0       1     14  0.984 0.971
+25     0     1     1      0       0      0       1     2   0.976 0.925
+ 3     0     0     0      0       1      0       0     2   0.936 0.434
+ 9     0     0     1      0       0      0       1     6   0.901 0.769
+41     1     0     1      0       0      0       0     2   0.860 0.474
+33     1     0     0      0       0      0       0     3   0.827 0.425
+36     1     0     0      0       1      1       0     2   0.794 0.292
+10     0     0     1      0       0      1       0     3   0.734 0.460
+43     1     0     1      0       1      0       0     4   0.648 0.115
+11     0     0     1      0       1      0       0     7   0.630 0.158
+59     1     1     1      0       1      0       0     2   0.620 0.054
+15     0     0     1      1       1      0       0     2   0.576 0.023
+12     0     0     1      0       1      1       0     5   0.575 0.154
+47     1     0     1      1       1      0       0     9   0.562 0.075
+ 2     0     0     0      0       0      1       0     3   0.554 0.139
+48     1     0     1      1       1      1       0     7   0.448 0.007
+16     0     0     1      1       1      1       0     7   0.422 0.011
+64     1     1     1      1       1      1       0     18  0.247 0.003
+     cases                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+ 1   DB_HiTek_2023,DB_HiTek_2024,DB_HiTek_2025,LX_Semicon_2023,Nanya_Technology_2023,Nanya_Technology_2024,Nanya_Technology_2025,UMS_Holdings_2023,UMS_Holdings_2024,UMS_Holdings_2025,Venture_Corporation_2023,Venture_Corporation_2024,Wolfspeed_2024,Wolfspeed_2025                                                                                                                                                                                                  
+25   LX_Semicon_2024,LX_Semicon_2025                                                                                                                                                                                                                                                                                                                                                                                                                                    
+ 3   Novatek_Microelectronics_2023,Wolfspeed_2023                                                                                                                                                                                                                                                                                                                                                                                                                       
+ 9   Analog_Devices_2023,Hana_Micron_2023,Novatek_Microelectronics_2024,Realtek_Semiconductor_2023,Skyworks_Solutions_2023,Skyworks_Solutions_2024                                                                                                                                                                                                                                                                                                                      
+41   MediaTek_Inc._2023,Phison_Electronics_2023                                                                                                                                                                                                                                                                                                                                                                                                                         
+33   AEM_Holdings_2023,AEM_Holdings_2024,Marvell_Technology_2023                                                                                                                                                                                                                                                                                                                                                                                                        
+36   Himax_Technologies_2024,Himax_Technologies_2025                                                                                                                                                                                                                                                                                                                                                                                                                    
+10   GlobalFoundries_2023,Hana_Micron_2024,Hana_Micron_2025                                                                                                                                                                                                                                                                                                                                                                                                             
+43   Applied_Materials_2024,Broadcom_Inc._2023,Phison_Electronics_2024,Realtek_Semiconductor_2024                                                                                                                                                                                                                                                                                                                                                                       
+11   Analog_Devices_2024,KLA_Corporation_2023,Lam_Research_2023,Microchip_Technology_2024,Novatek_Microelectronics_2025,Skyworks_Solutions_2025,onsemi_2023                                                                                                                                                                                                                                                                                                             
+59   Advanced_Micro_Devices_2023,Qualcomm_Incorporated_2023                                                                                                                                                                                                                                                                                                                                                                                                             
+15   Applied_Materials_2023,Venture_Corporation_2025                                                                                                                                                                                                                                                                                                                                                                                                                    
+12   ASE_Technology_Holding_2023,KLA_Corporation_2024,Microchip_Technology_2023,Microchip_Technology_2025,United_Microelectronics_Corp._2023                                                                                                                                                                                                                                                                                                                            
+47   ASE_Technology_Holding_2024,Broadcom_Inc._2024,Broadcom_Inc._2025,KLA_Corporation_2025,Marvell_Technology_2025,Phison_Electronics_2025,Realtek_Semiconductor_2025,SK_Hynix_2023,onsemi_2025                                                                                                                                                                                                                                                                        
+ 2   Frencken_Group_2023,Frencken_Group_2024,Frencken_Group_2025                                                                                                                                                                                                                                                                                                                                                                                                        
+48   Applied_Materials_2025,GlobalFoundries_2025,Lam_Research_2024,Lam_Research_2025,Micron_Technology_2023,Taiwan_Semiconductor_Manufacturing_Co._2024,United_Microelectronics_Corp._2025                                                                                                                                                                                                                                                                              
+16   ASE_Technology_Holding_2025,Analog_Devices_2025,GlobalFoundries_2024,Texas_Instruments_2023,Texas_Instruments_2024,Texas_Instruments_2025,United_Microelectronics_Corp._2024                                                                                                                                                                                                                                                                                       
+64   Advanced_Micro_Devices_2025,Intel_Corporation_2023,Intel_Corporation_2024,Intel_Corporation_2025,MediaTek_Inc._2025,Micron_Technology_2024,Micron_Technology_2025,NVIDIA_Corporation_2023,NVIDIA_Corporation_2024,NVIDIA_Corporation_2025,Qualcomm_Incorporated_2024,SK_Hynix_2024,SK_Hynix_2025,Samsung_Electronics_2023,Samsung_Electronics_2024,Samsung_Electronics_2025,Taiwan_Semiconductor_Manufacturing_Co._2023,Taiwan_Semiconductor_Manufacturing_Co._2025
+
+Positive rows before/after firm-diversity filter: 3 -> 2 (demoted: 25)
+
+--- Necessity (negSCR) ---
+
+AICAP:
+
+          inclN   RoN   covN  
+----------------------------- 
+1  AICAP  0.429  0.580  0.302 
+----------------------------- 
+
+~AICAP:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  ~AICAP  0.756  0.697  0.550 
+------------------------------ 
+
+
+AIGOV:
+
+          inclN   RoN   covN  
+----------------------------- 
+1  AIGOV  0.209  0.794  0.282 
+----------------------------- 
+
+~AIGOV:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  ~AIGOV  0.960  0.404  0.467 
+------------------------------ 
+
+
+SUSSRC:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  SUSSRC  0.685  0.353  0.334 
+------------------------------ 
+
+~SUSSRC:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  ~SUSSRC  0.536  0.908  0.719 
+------------------------------- 
+
+
+DIGVIS:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  DIGVIS  0.379  0.617  0.290 
+------------------------------ 
+
+~DIGVIS:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  ~DIGVIS  0.934  0.700  0.626 
+------------------------------- 
+
+
+SUPCOLL:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  SUPCOLL  0.513  0.462  0.295 
+------------------------------- 
+
+~SUPCOLL:
+
+             inclN   RoN   covN  
+-------------------------------- 
+1  ~SUPCOLL  0.803  0.874  0.762 
+-------------------------------- 
+
+
+SUPDIV:
+
+           inclN   RoN   covN  
+------------------------------ 
+1  SUPDIV  0.385  0.598  0.284 
+------------------------------ 
+
+~SUPDIV:
+
+            inclN   RoN   covN  
+------------------------------- 
+1  ~SUPDIV  0.817  0.683  0.566 
+------------------------------- 
+
+
+--- Single-condition sufficiency (negSCR) ---
+
+AICAP:
+
+          inclS   PRI   covS   covU  
+------------------------------------ 
+1  AICAP  0.302  0.094  0.429    -   
+------------------------------------ 
+
+~AICAP:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  ~AICAP  0.550  0.410  0.756    -   
+------------------------------------- 
+
+
+AIGOV:
+
+          inclS   PRI   covS   covU  
+------------------------------------ 
+1  AIGOV  0.282  0.065  0.209    -   
+------------------------------------ 
+
+~AIGOV:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  ~AIGOV  0.467  0.311  0.960    -   
+------------------------------------- 
+
+
+SUSSRC:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  SUSSRC  0.334  0.166  0.685    -   
+------------------------------------- 
+
+~SUSSRC:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  ~SUSSRC  0.719  0.554  0.536    -   
+-------------------------------------- 
+
+
+DIGVIS:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  DIGVIS  0.290  0.036  0.379    -   
+------------------------------------- 
+
+~DIGVIS:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  ~DIGVIS  0.626  0.471  0.934    -   
+-------------------------------------- 
+
+
+SUPCOLL:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  SUPCOLL  0.295  0.068  0.513    -   
+-------------------------------------- 
+
+~SUPCOLL:
+
+             inclS   PRI   covS   covU  
+--------------------------------------- 
+1  ~SUPCOLL  0.762  0.638  0.803    -   
+--------------------------------------- 
+
+
+SUPDIV:
+
+           inclS   PRI   covS   covU  
+------------------------------------- 
+1  SUPDIV  0.284  0.095  0.385    -   
+------------------------------------- 
+
+~SUPDIV:
+
+            inclS   PRI   covS   covU  
+-------------------------------------- 
+1  ~SUPDIV  0.566  0.407  0.817    -   
+-------------------------------------- 
+
+
+=== COMPLEX solution ===
+
+M1: ~AICAP*~AIGOV*~DIGVIS*~SUPCOLL*~SUPDIV -> negSCR
+
+                                           inclS   PRI   covS   covU  
+--------------------------------------------------------------------- 
+1  ~AICAP*~AIGOV*~DIGVIS*~SUPCOLL*~SUPDIV  0.929  0.881  0.542    -   
+--------------------------------------------------------------------- 
+                                       M1  0.929  0.881  0.542 
+
+                                           cases 
+------------------------------------------------ 
+1  ~AICAP*~AIGOV*~DIGVIS*~SUPCOLL*~SUPDIV  DB_HiTek_2023,DB_HiTek_2024,DB_HiTek_2025,LX_Semicon_2023,Nanya_Technology_2023,Nanya_Technology_2024,Nanya_Technology_2025,UMS_Holdings_2023,UMS_Holdings_2024,UMS_Holdings_2025,Venture_Corporation_2023,Venture_Corporation_2024,Wolfspeed_2024,Wolfspeed_2025;
+                                           Analog_Devices_2023,Hana_Micron_2023,Novatek_Microelectronics_2024,Realtek_Semiconductor_2023,Skyworks_Solutions_2023,Skyworks_Solutions_2024
+------------------------------------------------ 
+
+
+=== PARSIMONIOUS solution ===
+
+M1: ~AICAP*~SUPCOLL*~SUPDIV -> negSCR
+
+                            inclS   PRI   covS   covU  
+------------------------------------------------------ 
+1  ~AICAP*~SUPCOLL*~SUPDIV  0.929  0.886  0.572    -   
+------------------------------------------------------ 
+                        M1  0.929  0.886  0.572 
+
+                            cases 
+--------------------------------- 
+1  ~AICAP*~SUPCOLL*~SUPDIV  DB_HiTek_2023,DB_HiTek_2024,DB_HiTek_2025,LX_Semicon_2023,Nanya_Technology_2023,Nanya_Technology_2024,Nanya_Technology_2025,UMS_Holdings_2023,UMS_Holdings_2024,UMS_Holdings_2025,Venture_Corporation_2023,Venture_Corporation_2024,Wolfspeed_2024,Wolfspeed_2025;
+                            Analog_Devices_2023,Hana_Micron_2023,Novatek_Microelectronics_2024,Realtek_Semiconductor_2023,Skyworks_Solutions_2023,Skyworks_Solutions_2024
+--------------------------------- 
+
+
+=== INTERMEDIATE solution ===
+
+From C1P1: 
+
+M1:    ~AICAP*~AIGOV*~DIGVIS*~SUPCOLL*~SUPDIV -> negSCR 
+
+                                           inclS   PRI   covS   covU  
+--------------------------------------------------------------------- 
+1  ~AICAP*~AIGOV*~DIGVIS*~SUPCOLL*~SUPDIV  0.929  0.881  0.542    -   
+--------------------------------------------------------------------- 
+                                       M1  0.929  0.881  0.542 
+
+                                           cases 
+------------------------------------------------ 
+1  ~AICAP*~AIGOV*~DIGVIS*~SUPCOLL*~SUPDIV  DB_HiTek_2023,DB_HiTek_2024,DB_HiTek_2025,LX_Semicon_2023,Nanya_Technology_2023,Nanya_Technology_2024,Nanya_Technology_2025,UMS_Holdings_2023,UMS_Holdings_2024,UMS_Holdings_2025,Venture_Corporation_2023,Venture_Corporation_2024,Wolfspeed_2024,Wolfspeed_2025;
+                                           Analog_Devices_2023,Hana_Micron_2023,Novatek_Microelectronics_2024,Realtek_Semiconductor_2023,Skyworks_Solutions_2023,Skyworks_Solutions_2024
+------------------------------------------------ 
+

@@ -1,0 +1,106 @@
+CASEID,Company,Ticker,Country,Subsector,Year,AICAP,AIGOV,SUSSRC,DIGVIS,SUPCOLL,SUPDIV,SCR
+AEM_Holdings_2023,AEM Holdings,AEM.SI,Singapore,Equipment (test handlers),2023,2.28,0.4,1.73,1.5,0.73,1.24,0.44
+AEM_Holdings_2024,AEM Holdings,AEM.SI,Singapore,Equipment (test handlers),2024,3.04,0.88,1.8,1.84,0.92,0.89,0.36
+AEM_Holdings_2025,AEM Holdings,AEM.SI,Singapore,Equipment (test handlers),2025,3.11,1.08,2.05,2.45,1.22,1.6,0.56
+ASE_Technology_Holding_2023,ASE Technology Holding,ASX/3711.TW,Taiwan,OSAT,2023,1.53,0.59,2.78,1.64,3.57,2.14,1.52
+ASE_Technology_Holding_2024,ASE Technology Holding,ASX/3711.TW,Taiwan,OSAT,2024,2.05,1.09,3.14,2.02,4.0,1.85,1.58
+ASE_Technology_Holding_2025,ASE Technology Holding,ASX/3711.TW,Taiwan,OSAT,2025,1.92,1.35,3.09,2.04,4.0,2.3,1.96
+Advanced_Micro_Devices_2023,Advanced Micro Devices,AMD,USA,Fabless,2023,3.38,2.76,2.93,1.88,2.61,1.85,1.5
+Advanced_Micro_Devices_2024,Advanced Micro Devices,AMD,USA,Fabless,2024,4.0,2.74,3.13,2.04,3.1,1.9,1.98
+Advanced_Micro_Devices_2025,Advanced Micro Devices,AMD,USA,Fabless,2025,4.0,3.2,3.34,2.5,3.1,2.35,2.21
+Analog_Devices_2023,Analog Devices,ADI,USA,IDM (analog),2023,0.57,0.66,2.84,1.62,1.67,1.93,3.0
+Analog_Devices_2024,Analog Devices,ADI,USA,IDM (analog),2024,1.06,0.89,2.87,1.98,2.08,1.96,1.77
+Analog_Devices_2025,Analog Devices,ADI,USA,IDM (analog),2025,1.34,1.31,3.03,2.58,2.31,2.43,2.54
+Applied_Materials_2023,Applied Materials,AMAT,USA,Equipment,2023,1.6,0.73,2.93,2.14,3.4,1.86,2.9
+Applied_Materials_2024,Applied Materials,AMAT,USA,Equipment,2024,2.02,1.0,2.89,1.96,3.95,1.85,2.92
+Applied_Materials_2025,Applied Materials,AMAT,USA,Equipment,2025,2.15,1.4,3.28,2.68,3.89,2.3,2.94
+Broadcom_Inc._2023,Broadcom Inc.,AVGO,USA,Fabless/IDM,2023,2.76,0.16,2.86,1.79,2.06,0.7,3.23
+Broadcom_Inc._2024,Broadcom Inc.,AVGO,USA,Fabless/IDM,2024,2.89,0.94,3.07,2.13,2.11,0.92,2.81
+Broadcom_Inc._2025,Broadcom Inc.,AVGO,USA,Fabless/IDM,2025,3.5,1.22,3.29,2.33,2.4,1.23,3.17
+DB_HiTek_2023,DB HiTek,000990.KS,South Korea,Foundry,2023,0.73,0.54,1.57,0.68,1.03,0.83,1.67
+DB_HiTek_2024,DB HiTek,000990.KS,South Korea,Foundry,2024,1.11,0.98,1.74,0.98,1.13,1.32,1.4
+DB_HiTek_2025,DB HiTek,000990.KS,South Korea,Foundry,2025,1.61,1.14,1.62,1.46,1.22,1.35,1.98
+Frencken_Group_2023,Frencken Group,E28.SI,Singapore,Equipment (precision eng.),2023,0.66,0.57,1.0,0.65,1.03,2.65,1.58
+Frencken_Group_2024,Frencken Group,E28.SI,Singapore,Equipment (precision eng.),2024,0.92,1.0,0.82,0.96,1.13,3.06,1.83
+Frencken_Group_2025,Frencken Group,E28.SI,Singapore,Equipment (precision eng.),2025,1.39,1.17,1.51,1.02,1.45,3.12,1.79
+GlobalFoundries_2023,GlobalFoundries,GFS,USA,Foundry,2023,1.35,0.85,2.02,1.67,1.79,3.83,2.12
+GlobalFoundries_2024,GlobalFoundries,GFS,USA,Foundry,2024,1.88,1.17,2.01,2.15,2.05,3.74,0.94
+GlobalFoundries_2025,GlobalFoundries,GFS,USA,Foundry,2025,2.23,1.38,2.44,2.28,2.19,4.0,1.73
+Hana_Micron_2023,Hana Micron,067310.KQ,South Korea,OSAT,2023,0.12,0.51,2.61,0.9,0.65,1.74,1.77
+Hana_Micron_2024,Hana Micron,067310.KQ,South Korea,OSAT,2024,1.13,1.03,3.06,0.91,1.03,2.15,2.1
+Hana_Micron_2025,Hana Micron,067310.KQ,South Korea,OSAT,2025,0.93,1.15,2.93,1.63,1.09,2.02,2.08
+Himax_Technologies_2023,Himax Technologies,HIMX,Taiwan,Fabless (display drivers),2023,2.44,0.84,0.63,0.98,1.87,2.92,0.54
+Himax_Technologies_2024,Himax Technologies,HIMX,Taiwan,Fabless (display drivers),2024,3.01,0.85,0.95,1.1,2.05,2.99,0.85
+Himax_Technologies_2025,Himax Technologies,HIMX,Taiwan,Fabless (display drivers),2025,3.32,1.49,1.25,1.61,2.37,3.25,0.52
+Intel_Corporation_2023,Intel Corporation,INTC,USA,IDM,2023,2.59,2.96,3.98,2.59,2.58,4.0,0.56
+Intel_Corporation_2024,Intel Corporation,INTC,USA,IDM,2024,3.01,3.08,3.99,2.82,3.05,4.0,0.4
+Intel_Corporation_2025,Intel Corporation,INTC,USA,IDM,2025,3.35,3.65,4.0,3.37,2.85,4.0,0.44
+KLA_Corporation_2023,KLA Corporation,KLAC,USA,Equipment,2023,1.85,0.62,2.96,1.4,4.0,1.36,3.13
+KLA_Corporation_2024,KLA Corporation,KLAC,USA,Equipment,2024,1.94,0.84,3.04,1.99,4.0,2.09,2.86
+KLA_Corporation_2025,KLA Corporation,KLAC,USA,Equipment,2025,2.16,1.47,3.1,2.44,4.0,1.69,3.15
+LX_Semicon_2023,LX Semicon,108320.KS,South Korea,Fabless,2023,0.61,0.77,1.77,0.71,1.1,0.94,1.63
+LX_Semicon_2024,LX Semicon,108320.KS,South Korea,Fabless,2024,1.07,2.17,3.21,1.03,0.86,1.05,1.73
+LX_Semicon_2025,LX Semicon,108320.KS,South Korea,Fabless,2025,1.52,2.31,3.19,1.18,1.65,1.27,1.06
+Lam_Research_2023,Lam Research,LRCX,USA,Equipment,2023,1.61,0.43,2.88,1.8,3.63,1.94,2.96
+Lam_Research_2024,Lam Research,LRCX,USA,Equipment,2024,2.06,0.8,2.94,2.17,3.93,2.08,2.4
+Lam_Research_2025,Lam Research,LRCX,USA,Equipment,2025,2.19,1.12,3.1,2.43,4.0,2.38,3.02
+Marvell_Technology_2023,Marvell Technology,MRVL,USA,Fabless,2023,3.7,0.35,1.98,1.56,1.84,0.96,1.29
+Marvell_Technology_2024,Marvell Technology,MRVL,USA,Fabless,2024,3.78,1.14,1.98,2.02,1.99,0.78,1.44
+Marvell_Technology_2025,Marvell Technology,MRVL,USA,Fabless,2025,4.0,1.13,2.23,2.4,2.4,1.59,2.38
+MediaTek_Inc._2023,MediaTek Inc.,2454.TW,Taiwan,Fabless,2023,3.67,1.65,2.85,1.79,1.49,1.66,1.67
+MediaTek_Inc._2024,MediaTek Inc.,2454.TW,Taiwan,Fabless,2024,4.0,2.06,2.66,1.83,1.97,2.11,2.46
+MediaTek_Inc._2025,MediaTek Inc.,2454.TW,Taiwan,Fabless,2025,4.0,2.52,3.21,2.62,2.48,2.04,2.46
+Microchip_Technology_2023,Microchip Technology,MCHP,USA,IDM,2023,0.35,0.67,2.85,1.34,2.0,2.15,2.77
+Microchip_Technology_2024,Microchip Technology,MCHP,USA,IDM,2024,1.08,0.97,2.7,1.92,2.11,1.9,0.63
+Microchip_Technology_2025,Microchip Technology,MCHP,USA,IDM,2025,1.2,1.41,3.04,1.9,2.67,2.57,1.0
+Micron_Technology_2023,Micron Technology,MU,USA,IDM (memory),2023,2.2,1.91,2.57,2.74,3.3,3.19,0.15
+Micron_Technology_2024,Micron Technology,MU,USA,IDM (memory),2024,2.99,2.27,3.0,3.02,2.87,3.11,1.08
+Micron_Technology_2025,Micron Technology,MU,USA,IDM (memory),2025,3.28,2.55,2.85,3.48,3.4,3.2,2.83
+NVIDIA_Corporation_2023,NVIDIA Corporation,NVDA,USA,Fabless,2023,3.73,2.65,2.73,2.54,2.86,2.99,3.31
+NVIDIA_Corporation_2024,NVIDIA Corporation,NVDA,USA,Fabless,2024,3.91,2.97,2.95,3.2,3.09,2.8,3.35
+NVIDIA_Corporation_2025,NVIDIA Corporation,NVDA,USA,Fabless,2025,4.0,3.16,2.88,3.15,3.13,3.25,3.33
+Nanya_Technology_2023,Nanya Technology,2408.TW,Taiwan,IDM (DRAM),2023,0.35,0.63,0.54,0.69,1.04,0.49,0.04
+Nanya_Technology_2024,Nanya Technology,2408.TW,Taiwan,IDM (DRAM),2024,1.08,1.11,0.99,1.04,1.11,0.92,0.12
+Nanya_Technology_2025,Nanya Technology,2408.TW,Taiwan,IDM (DRAM),2025,1.14,1.28,0.96,1.54,1.44,0.86,1.25
+Novatek_Microelectronics_2023,Novatek Microelectronics,3034.TW,Taiwan,Fabless,2023,0.49,0.97,1.85,0.98,2.08,0.79,2.06
+Novatek_Microelectronics_2024,Novatek Microelectronics,3034.TW,Taiwan,Fabless,2024,1.04,1.2,2.04,1.09,1.9,0.94,1.71
+Novatek_Microelectronics_2025,Novatek Microelectronics,3034.TW,Taiwan,Fabless,2025,1.34,1.57,2.19,1.8,2.29,1.11,1.56
+Phison_Electronics_2023,Phison Electronics,8299.TWO,Taiwan,Fabless (storage controllers),2023,2.58,1.26,4.0,1.65,1.63,0.81,1.17
+Phison_Electronics_2024,Phison Electronics,8299.TWO,Taiwan,Fabless (storage controllers),2024,2.81,0.86,3.78,1.9,2.1,0.76,1.64
+Phison_Electronics_2025,Phison Electronics,8299.TWO,Taiwan,Fabless (storage controllers),2025,3.35,1.74,4.0,2.65,2.0,0.85,2.25
+Qualcomm_Incorporated_2023,Qualcomm Incorporated,QCOM,USA,Fabless,2023,2.38,2.81,2.82,1.48,2.85,1.79,1.96
+Qualcomm_Incorporated_2024,Qualcomm Incorporated,QCOM,USA,Fabless,2024,3.09,3.0,2.87,2.05,3.1,2.13,2.4
+Qualcomm_Incorporated_2025,Qualcomm Incorporated,QCOM,USA,Fabless,2025,3.14,3.63,3.39,1.87,3.53,2.29,2.87
+Realtek_Semiconductor_2023,Realtek Semiconductor,2379.TW,Taiwan,Fabless,2023,1.74,0.54,2.01,1.79,1.88,0.97,1.42
+Realtek_Semiconductor_2024,Realtek Semiconductor,2379.TW,Taiwan,Fabless,2024,2.25,1.06,2.16,1.99,2.06,1.06,2.31
+Realtek_Semiconductor_2025,Realtek Semiconductor,2379.TW,Taiwan,Fabless,2025,2.27,1.38,2.18,2.27,2.36,1.2,2.27
+SK_Hynix_2023,SK Hynix,000660.KS,South Korea,IDM (memory),2023,3.84,1.57,2.91,2.64,2.83,1.86,0.52
+SK_Hynix_2024,SK Hynix,000660.KS,South Korea,IDM (memory),2024,3.99,2.1,3.06,2.9,2.93,2.24,3.12
+SK_Hynix_2025,SK Hynix,000660.KS,South Korea,IDM (memory),2025,4.0,2.37,3.31,3.43,3.19,2.0,3.27
+Samsung_Electronics_2023,Samsung Electronics,005930.KS,South Korea,IDM/Foundry/Memory,2023,3.61,2.91,2.45,3.35,2.65,3.99,1.17
+Samsung_Electronics_2024,Samsung Electronics,005930.KS,South Korea,IDM/Foundry/Memory,2024,3.81,3.17,3.08,3.92,2.64,3.87,2.21
+Samsung_Electronics_2025,Samsung Electronics,005930.KS,South Korea,IDM/Foundry/Memory,2025,4.0,3.48,2.54,4.0,3.07,4.0,2.35
+Skyworks_Solutions_2023,Skyworks Solutions,SWKS,USA,Fabless (RF),2023,0.77,0.62,2.84,0.44,1.97,0.97,2.33
+Skyworks_Solutions_2024,Skyworks Solutions,SWKS,USA,Fabless (RF),2024,0.87,1.14,2.81,1.04,1.98,1.14,1.65
+Skyworks_Solutions_2025,Skyworks Solutions,SWKS,USA,Fabless (RF),2025,1.34,1.44,3.29,1.24,2.47,1.34,1.42
+Taiwan_Semiconductor_Manufacturing_Co._2023,Taiwan Semiconductor Manufacturing Co.,TSM/2330.TW,Taiwan,Foundry,2023,2.64,2.1,3.13,3.62,3.75,3.14,3.08
+Taiwan_Semiconductor_Manufacturing_Co._2024,Taiwan Semiconductor Manufacturing Co.,TSM/2330.TW,Taiwan,Foundry,2024,3.12,1.97,3.0,3.96,3.98,2.88,3.25
+Taiwan_Semiconductor_Manufacturing_Co._2025,Taiwan Semiconductor Manufacturing Co.,TSM/2330.TW,Taiwan,Foundry,2025,3.19,2.74,3.26,4.0,4.0,4.0,3.29
+Texas_Instruments_2023,Texas Instruments,TXN,USA,IDM (analog),2023,0.54,0.62,4.0,2.75,2.71,3.61,2.79
+Texas_Instruments_2024,Texas Instruments,TXN,USA,IDM (analog),2024,1.04,1.09,3.96,3.11,2.69,4.0,2.33
+Texas_Instruments_2025,Texas Instruments,TXN,USA,IDM (analog),2025,1.19,1.41,4.0,3.28,2.87,3.84,2.71
+UMS_Holdings_2023,UMS Holdings,558.SI,Singapore,Equipment (precision eng.),2023,0.49,0.29,1.89,0.45,0.78,1.18,2.0
+UMS_Holdings_2024,UMS Holdings,558.SI,Singapore,Equipment (precision eng.),2024,0.88,1.02,1.96,1.12,0.91,0.91,1.29
+UMS_Holdings_2025,UMS Holdings,558.SI,Singapore,Equipment (precision eng.),2025,1.09,1.12,1.92,1.49,1.07,1.5,1.52
+United_Microelectronics_Corp._2023,United Microelectronics Corp.,UMC/2303.TW,Taiwan,Foundry,2023,1.64,0.74,2.74,1.29,2.83,2.89,2.08
+United_Microelectronics_Corp._2024,United Microelectronics Corp.,UMC/2303.TW,Taiwan,Foundry,2024,1.87,1.02,2.87,2.07,3.02,3.09,2.06
+United_Microelectronics_Corp._2025,United Microelectronics Corp.,UMC/2303.TW,Taiwan,Foundry,2025,2.58,1.35,3.05,2.2,3.3,3.15,2.0
+Venture_Corporation_2023,Venture Corporation,V03.SI,Singapore,Electronics manufacturing services,2023,0.56,0.65,1.81,1.71,1.89,1.32,1.42
+Venture_Corporation_2024,Venture Corporation,V03.SI,Singapore,Electronics manufacturing services,2024,1.06,0.94,1.98,1.87,1.87,1.95,1.15
+Venture_Corporation_2025,Venture Corporation,V03.SI,Singapore,Electronics manufacturing services,2025,1.35,1.46,2.33,2.61,2.48,1.72,1.04
+Wolfspeed_2023,Wolfspeed,WOLF,USA,IDM (SiC/power),2023,0.46,0.46,0.64,0.52,2.11,0.79,1.4
+Wolfspeed_2024,Wolfspeed,WOLF,USA,IDM (SiC/power),2024,0.89,0.96,0.97,0.98,1.85,0.87,1.37
+Wolfspeed_2025,Wolfspeed,WOLF,USA,IDM (SiC/power),2025,1.26,1.15,1.05,1.22,1.48,1.39,1.15
+onsemi_2023,onsemi,ON,USA,IDM,2023,1.69,0.88,4.0,1.19,2.62,1.37,2.94
+onsemi_2024,onsemi,ON,USA,IDM,2024,2.03,1.1,4.0,1.86,2.88,2.18,2.19
+onsemi_2025,onsemi,ON,USA,IDM,2025,2.32,1.63,4.0,2.0,2.98,1.81,0.63
